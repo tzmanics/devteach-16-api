@@ -1,0 +1,31 @@
+{
+  "name": "hapi-api",
+  "version": "0.0.0",
+  "description": "An api for DevTeach 2016.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi",
+    "api",
+    "devteach"
+  ],
+  "author": "Tara Z. Manicsic <tara.manicsic@progress.com> (http://tzmanics.com/)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzmanics/devteach-16-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tzmanics/devteach-16-api/issues"
+  },
+  "homepage": "https://github.com/tzmanics/devteach-16-api#readme",
+  "dependencies": {
+    "boom": "3.2.2",
+    "hapi": "13.4.2",
+    "joi": "8.4.2",
+    "mongojs": "2.4.0",
+    "node-uuid": "1.4.7"
+  }
+}
